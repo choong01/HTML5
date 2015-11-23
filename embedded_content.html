@@ -23,5 +23,30 @@
     <p><b>iframe - the draft document of HTML5</b></p>
     <iframe src="http://dev.w3.org/html5/spec/index.html" width="400px" height="300px">
     </iframe>
+    <br/><br/>
+    
+    <svg width="600" height="400" style="background-color:#cef6d8">
+      <circle cx="100" cy="100" r="90" fill="none" stroke="orange"/>
+      
+      <rect x="0" y="0" width="60" height="60" fill="green" stroke="blue" stroke-width="2"/>
+      
+      <text x="200" y="200" font-family="Century Gothic" font-size="16" fill="red">
+        text <tspan font-weight="bold" fill="blue">element</tspan> is used for describing in this part
+      </text>
+      
+      <text x="240" y="240" font-family="Century Gothic" font-size="16" fill="red">
+        <tspan x="240" y="240" rotate="-30,0,30">
+          text element is used in here
+        </tspan>
+      </text>
+    </svg>
+    <br/><br/>
+    
+    <svg width="300" height="300">
+      <rect x="5" y="5" width="200" height="200" style="fill:#000000"/>
+      <g transform="rotate(5)">
+      <image x="10" y="10" width="200" height="200" xlink:href="img02.jpg" preserveAspectRatio="none"/>
+      </g>
+    </svg>
   </body>
 </html>
