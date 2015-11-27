@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Form-related Elements</title>
+  </head>
+  
+  <body>
+    <form method="post">
+      Name   : <input type="text" name="s_name" size="20"/><br/><br/>
+      ID Num : <input type="text" name="s_number" size="12"/><br/><br/>
+
+      <button type="submit">submit button</button> &nbsp;&nbsp;
+      <button type="rest">reset button</button>
+    </form>
+    <br/><br/>
+    
+    <form name="myform">
+      <fieldset name="studentRecord" form="myform" style="text-align:left">
+        <legend><b>student information</b></legend>
+        Name <input type="text"/><br/>
+        Phone Num <input type="text"/><br/>
+        Address <input type="text"/><br/>
+      </fieldset>
+    </form>
+    <br/><br/>
+    
+    <p>Which one is your favorite movie genre</p>
+    <form>
+      <input type="checkbox" name="movie" id="sel_action"/>
+      <label for="sel_action">Action</label>
+      <br/>
+      
+      <input type="checkbox" name="movie" id="sel_horror"/>
+      <label for="sel_horror">Horror</label>
+    </form>
+    <br/><br/>
+    
+    <form>
+      <label for="id_number">ID Number<label>
+      <input name="id_number" type="text" placeholder="Input 6places-7places form" required="required"
+      pattern="\d{6}[\-]\d{7}"/>
+      <input type="submit"/>
+    </form>
+    <br/><br/>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
