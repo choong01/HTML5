@@ -1,0 +1,36 @@
+<!DOCUMENT HTML>
+<html>
+  <head>
+    <title>output example</title>
+    
+    <style type="text/css">
+    </style>
+    
+    <script type="text/javascript">
+      function add()
+      {
+        var a = parseInt(prompt("first num",0));
+        var b = parseInt(prompt("second num",0));
+        document.forms["resultform"]["result"].value=a+b;
+      }
+    </script>
+  </head>
+  
+  <body onload="add()">
+    <h1>how to use "output" element</h1>
+    
+    <form name="resultform">
+      <label>the value of adding two numbers : </label>
+      &nbsp;&nbsp;<output name="result"></output>
+    </form>
+    
+    <form>
+      meter element : <br/>
+      <meter value="0.5">70%</meter><br/>
+      <details>
+        <summary>details</summary>
+        This is details element
+      </details>
+    </form>
+  </body>
+</html>
